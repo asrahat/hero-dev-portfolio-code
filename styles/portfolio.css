@@ -24,6 +24,7 @@
 .section-heading{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .section-heading h2{
@@ -33,6 +34,9 @@
     font-size: 18px;
     color: #757575;
     margin: 30px 0px;
+}
+.text-center{
+    text-align: center;
 }
 
 /* main style */
@@ -105,7 +109,7 @@ nav ul li a {
 
 }
 
-#about{
+#about, #skills , #resume{
     padding-top: 130px;
 }
 
@@ -131,4 +135,115 @@ nav ul li a {
     font-size: 20px;
     font-weight: bold;
     color: #474747;
+}
+#skills .skills-container{
+    width: 71%;
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+#skills .skills-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#skills .skills-info .skill-card{
+ padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+#skills .skills-info .skill-card:hover{
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+#skills .skills-info .skill-card h2{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+#skills .skills-info .skill-card p{
+    font-size: 16px;
+    color: #757575;
+}
+
+
+#resume .resume-container{
+     width: 71%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#resume .resume-info{
+    margin-top: 113px;
+    display: flex;
+    gap: 70px;
+}
+
+#resume .resume-card {
+    margin-bottom: 30px;
+}
+
+#resume .resume-card h2{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+#resume .resume-card h4{
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+#resume .resume-card h5{
+    font-size: 20px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+#resume .resume-card p{
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+#resume .resume-btn{
+  text-align: center;
+}
+
+footer{
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 113px;
+}
+
+footer .footer-container{
+    width: 71%;
+    max-width: 1170px;
+   display: flex;
+   gap: 117px;
+   margin: 0 auto;
+}
+
+footer .footer-container h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 28px;
+}
+.contact p{
+    font-size: 16px;
+    color: #474747;
+    margin: 20px 0px;
+}
+.contact .icon{
+    margin-right: 24px;
+}
+
+.footer-container form input[type='text'],
+.footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
 }
